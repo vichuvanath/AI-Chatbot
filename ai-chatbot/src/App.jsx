@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export default function App() {
-  const [mes, setMes] = useState([]); // Corrected variable name to match the usage below
+  const [mes, setMes] = useState([]);
   const [val, setVal] = useState('');
 
   const sendMessage = async () => {
